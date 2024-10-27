@@ -12,7 +12,7 @@ yesBtn.addEventListener("click", () => {
      // Create "Save the Date" link
     const saveDateLink = document.createElement("a");
     saveDateLink.href = "https://duynguyen1509.github.io/trick-or-treat/Halloween Party yayyyy.ics"; // Link to hosted .ics file
-    saveDateLink.download = "Halloween_Party.ics"; // File name for download
+    saveDateLink.download = "Halloween Party yayyyy.ics"; // File name for download
     saveDateLink.innerText = "Save the Date to Your Calendar";
     saveDateLink.style.display = "block"; // Ensure it appears on a new line
     saveDateLink.style.marginTop = "10px";
