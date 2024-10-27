@@ -11,7 +11,7 @@ yesBtn.addEventListener("click", () => {
     "https://media1.giphy.com/media/7702jh3NsloOseiDUk/giphy.webp?cid=6c09b952nnwrtkam3ack51sjlfp2dn75rq441whntbg6a8st&ep=v1_internal_gif_by_id&rid=giphy.webp&ct=g";
      // Create "Save the Date" link
     const saveDateLink = document.createElement("a");
-    saveDateLink.href = "./Halloween Party yayyyy.ics"; // Link to hosted .ics file
+    saveDateLink.href = "https://duynguyen1509.github.io/trick-or-treat/Halloween Party yayyyy.ics"; // Link to hosted .ics file
     saveDateLink.download = "Halloween_Party.ics"; // File name for download
     saveDateLink.innerText = "Save the Date to Your Calendar";
     saveDateLink.style.display = "block"; // Ensure it appears on a new line
